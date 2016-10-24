@@ -20,7 +20,7 @@ server.route({
     method: 'GET',
     path: '/webhook',
     handler: (request, reply) => {
-        console.log(request.query);
+        console.log(request);
         if(request.query['hub.verify_token'] === 'my_token') {
             reply(request.query['hub.challenge']);
         } else {
