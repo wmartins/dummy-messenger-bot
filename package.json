@@ -1,0 +1,17 @@
+{
+  "name": "dummy-messenger-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/wmartins/dummy-messenger-bot",
+    "type": "git"
+  },
+  "author": "William Martins <wwwhmartins@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^15.2.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
