@@ -29,6 +29,14 @@ server.route({
     }
 });
 
+server.route({
+    method: 'POST',
+    path: '/webhook',
+    handler: (request, reply) => {
+        console.log(request);
+    }
+});
+
 server.start((err) => {
     if(err) {
         throw err;
